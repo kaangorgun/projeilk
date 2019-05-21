@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<title>255 proje Pokemon</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+  
 </head>
 <body>
 	<div id="header">
@@ -73,7 +74,7 @@
 			<div class="aside">
 				<div>
 					<h3>Oyun</h3>
-					<a href="oyun.html" class="figure"><img src="hero.jpg" alt=""></a>
+					<a href="oyun.html" class="figure"><img src="images/hero.jpg" alt=""></a>
 					
 				</div>
 				<form action="ana.html">
@@ -95,7 +96,21 @@
 			</li>
 			<li id="googleplus">
 				<a href="http://google.com">google</a>
+            </li>
+            <li>
+            <p id="demo"></p>
+
+                    <script>
+                        var myVar = setInterval(myTimer, 1000);
+
+                        function myTimer() {
+  var d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+            </li>
 		</ul>
+                
 		
 	</div>
 </body>
